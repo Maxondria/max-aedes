@@ -1,0 +1,18 @@
+{
+  "name": "aedes-mqtt-broker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Maxondria <maxtayebwa@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start:broker": "node src/index",
+    "start:sub": "node src/sub",
+    "start:pub": "node src/pub"
+  },
+  "dependencies": {
+    "aedes": "^0.41.0",
+    "aedes-persistence-mongodb": "^8.0.1",
+    "mqemitter-mongodb": "^7.0.2",
+    "mqtt": "^4.0.0"
+  }
+}
