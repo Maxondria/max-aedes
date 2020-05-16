@@ -13,7 +13,7 @@ const LOGGING_ERROR =
 
 const topicToPublish = {
   topic: "device/data/LOG",
-  messages: ["20kwh", "30kwh", "40kwh", "50kwh", "60kwh"],
+  messages: ["20kW", "30kW", "40kW", "50kW", "60kW"],
 };
 
 client.on("connect", () => {
